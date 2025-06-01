@@ -9,14 +9,14 @@ Sequelize CLI
 Database yang telah dikonfigurasi (PostgreSQL, MySQL, SQLite, dll.)
 
 # Instalasi
-bashnpm install
+npm install
 # atau
 yarn install
 
 # Konfigurasi Database
 Pastikan file konfigurasi database (config/config.json atau config/database.js) telah diatur dengan benar sesuai dengan environment Anda.
-Cara Menjalankan Program Tes
+# Cara Menjalankan Program Tes
 Perintah Lengkap
 Jalankan perintah berikut untuk mempersiapkan database dan menjalankan tes:
-bashnpx sequelize db:migrate:undo:all && npx sequelize db:migrate && npx sequelize db:seed:all
-Penjelasan Perintah
+
+> Tnpx sequelize db:migrate:undo:all && npx sequelize db:migrate && npx sequelize db:seed:all
